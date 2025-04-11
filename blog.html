@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TFT Clubs</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <header> 
+        <nav>
+            <div class="envoltura">
+                <div class="logo"><a href="#">TFT CLUBS</a></div>
+                <div class="menu-icon"><i class="bx bx-menu"></i></div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li>
+                        <a href="clase.html">Clases</a>
+                        <div class="mega-menu">
+                            <div class="contenedor">
+                                <div class="menu">
+                                    <p>Fuerza</p>
+                                    <ul class="mega-links">
+                                        <li><a href="clase.html">Musculación</a></li>
+                                        <li><a href="clase.html">Powerlifting</a></li>
+                                        <li><a href="clase.html">Entrenadores</a></li>
+                                    </ul>
+                                </div>
+                                <div class="menu">
+                                    <p>Funcional</p>
+                                    <ul class="mega-links">
+                                        <li><a href="clase.html">Calistenia</a></li>
+                                        <li><a href="clase.html">CrossFit</a></li>
+                                    </ul>
+                                </div>
+                                <div class="menu">
+                                    <p>Bienestar</p>
+                                    <ul class="mega-links">
+                                        <li><a href="clase.html">Yoga</a></li>
+                                        <li><a href="clase.html">Pilates</a></li>
+                                        <li><a href="clase.html">Zumba</a></li>
+                                        <li><a href="clase.html">Spinning</a></li>
+                                    </ul>
+                                </div>
+                                <div class="menu">
+                                    <img src="img/logo.PNG" alt="LOGO TFT">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="profe.html">Entrenadores</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="subcripcion.html">Planes</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+                <button class="toggle-btn"><i class="bx bx-sun" id="theme-icon"></i></button>
+            </div>
+        </nav>
+    </header>
+    
+
+    <section class="blog">
+        <h2 class="section-title">Nuestro Blog</h2>
+        <div class="filter-container">
+            <input type="radio" name="tag" id="all" checked>
+            <input type="radio" name="tag" id="yoga">
+            <input type="radio" name="tag" id="fitness">
+            <input type="radio" name="tag" id="nutricion">
+            <input type="radio" name="tag" id="zumba">
+            <input type="radio" name="tag" id="musculacion">
+            <input type="radio" name="tag" id="calistenia">
+            <div class="filter-tags">
+                <label for="all">Todos</label>
+                <label for="yoga">Yoga</label>
+                <label for="fitness">Fitness</label>
+                <label for="nutricion">Nutrición</label>
+                <label for="zumba">Zumba</label>
+                <label for="musculacion">Musculación</label>
+                <label for="calistenia">Calistenia</label>
+            </div>
+            <br><br><br><br>
+            <div class="blog-grid">
+                <article class="blog-post" data-tag="yoga">
+                    <img src="img/yoga2.jpeg" alt="Post 1">
+                    <div class="post-content">
+                        <span class="tag">Yoga</span>
+                        <h3>Los Beneficios del Yoga para la Mente</h3>
+                        <p>Descubre cómo el yoga puede ayudarte a reducir el estrés y mejorar tu bienestar mental.</p>
+                        <a href="#comments1" class="read-more">Leer más</a>
+                    </div>
+                    <div class="comments-section" id="comments1">
+                        <h4>Comentarios</h4>
+                        <div class="comment">
+                            <div class="avatar"></div>
+                            <div class="comment-content">
+                                <span class="comment-author">Ana Pérez</span>
+                                <p>¡Me encantó este artículo! El yoga ha cambiado mi vida.</p>
+                            </div>
+                        </div>
+                        <div class="comment">
+                            <div class="avatar"></div>
+                            <div class="comment-content">
+                                <span class="comment-author">Luis Gómez</span>
+                                <p>Gracias por los consejos, voy a probar estas técnicas.</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="blog-post" data-tag="fitness">
+                    <img src="img/crossfit3.jpeg" alt="Post 2">
+                    <div class="post-content">
+                        <span class="tag">Fitness</span>
+                        <h3>Rutina de Entrenamiento para Principiantes</h3>
+                        <p>Una guía sencilla para empezar tu viaje en el fitness con ejercicios básicos.</p>
+                        <a href="#comments2" class="read-more">Leer más</a>
+                    </div>
+                    <div class="comments-section" id="comments2">
+                        <h4>Comentarios</h4>
+                        <div class="comment">
+                            <div class="avatar"></div>
+                            <div class="comment-content">
+                                <span class="comment-author">María López</span>
+                                <p>¡Perfecto para mí! Gracias por compartir.</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="blog-post" data-tag="nutricion">
+                    <img src="img/canastablog.jpeg" alt="Post 3">
+                    <div class="post-content">
+                        <span class="tag">Nutrición</span>
+                        <h3>Alimentos para Mejorar tu Energía</h3>
+                        <p>Conoce los mejores alimentos para mantenerte activo durante el día.</p>
+                        <a href="#comments3" class="read-more">Leer más</a>
+                    </div>
+                    <div class="comments-section" id="comments3">
+                        <h4>Comentarios</h4>
+                        <div class="comment">
+                            <div class="avatar"></div>
+                            <div class="comment-content">
+                                <span class="comment-author">Carlos Ruiz</span>
+                                <p>Interesante, voy a incluir estos alimentos en mi dieta.</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="blog-post" data-tag="zumba">
+                    <img src="img/zumba1.jpeg" alt="Post 4">
+                    <div class="post-content">
+                        <span class="tag">Zumba</span>
+                        <h3>Por qué la Zumba es Perfecta para Divertirte</h3>
+                        <p>Descubre cómo la zumba combina ejercicio y diversión en una sola clase.</p>
+                        <a href="#comments4" class="read-more">Leer más</a>
+                    </div>
+                    <div class="comments-section" id="comments4">
+                        <h4>Comentarios</h4>
+                        <div class="comment">
+                            <div class="avatar"></div>
+                            <div class="comment-content">
+                                <span class="comment-author">Sofía Martínez</span>
+                                <p>¡Amo la zumba! Este artículo me motivó aún más.</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="blog-post" data-tag="musculacion">
+                    <img src="img/musculacion2.jpeg" alt="Post 5">
+                    <div class="post-content">
+                        <span class="tag">Musculación</span>
+                        <h3>Guía de Musculación para Ganar Masa</h3>
+                        <p>Consejos prácticos para aumentar tu masa muscular de forma efectiva.</p>
+                        <a href="#comments5" class="read-more">Leer más</a>
+                    </div>
+                    <div class="comments-section" id="comments5">
+                        <h4>Comentarios</h4>
+                        <div class="comment">
+                            <div class="avatar"></div>
+                            <div class="comment-content">
+                                <span class="comment-author">Pedro Sánchez</span>
+                                <p>Muy útil, gracias por los tips de entrenamiento.</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="blog-post" data-tag="calistenia">
+                    <img src="img/calistenia3.jpeg" alt="Post 6">
+                    <div class="post-content">
+                        <span class="tag">Calistenia</span>
+                        <h3>Entrenamiento de Calistenia para Todos</h3>
+                        <p>Aprende cómo empezar con la calistenia y sus beneficios para el cuerpo.</p>
+                        <a href="#comments6" class="read-more">Leer más</a>
+                    </div>
+                    <div class="comments-section" id="comments6">
+                        <h4>Comentarios</h4>
+                        <div class="comment">
+                            <div class="avatar"></div>
+                            <div class="comment-content">
+                                <span class="comment-author">Laura Díaz</span>
+                                <p>¡Increíble! La calistenia es justo lo que buscaba.</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!--footer-->
+
+    <footer class="footer">
+        <div class="footer-map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.019003596282!2d-122.41941568468144!3d37.77492977975935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808f5d7e3f6b%3A0x6e9e8e5e5e5e5e5e!2sSan%20Francisco%2C%20CA%2C%20USA!5e0!3m2!1sen!2sus!4v1631234567890" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>Categorías</h3>
+            <ul>
+              <li><a href="clase.html">Clases</a></li>
+              <li><a href="profe.html">Entrenadores</a></li>
+              <li><a href="subcripcion.html">Precios</a></li>
+              <li><a href="index.html">Testimonios</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>Clases</h3>
+            <ul>
+              <li><a href="clase.html">Musculación</a></li>
+              <li><a href="clase.html">CrossFit</a></li>
+              <li><a href="clase.html">Yoga</a></li>
+              <li><a href="clase.html">Spinning</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>Contacto</h3>
+            <p>Email: info@gimnasio.com</p>
+            <p>Teléfono: +54 388 4567890</p>
+            <p>Dirección: 123 Calle Fitness, Ciudad</p>
+          </div>
+          <div class="footer-section">
+            <h3>Suscribete</h3>
+            <p>Suscríbete para recibir noticias y ofertas.</p>
+            <form class="newsletter-form">
+              <input type="email" placeholder="Tu email" required>
+              <button type="submit">Suscribirse</button>
+            </form>
+            <h3>Síguenos</h3>
+            <div class="social-links">
+              <a href="https://facebook.com" target="_blank"><i class='bx bxl-facebook-circle'></i></a>
+              <a href="https://instagram.com" target="_blank"><i class='bx bxl-instagram'></i></a>
+              <a href="https://twitter.com" target="_blank"><i class='bx bxl-twitter'></i></a>
+              <a href="https://twitter.com" target="_blank"><i class='bx bxl-spotify'></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>© 2025. Todos los derechos reservados.</p>
+        </div>
+      </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
